@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+
 }
 
 .App-logo {
@@ -35,4 +36,55 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+body{
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 200px;
+}
+ul{
+  display: flex;
+  padding: 50px;
+  background-color: black;
+  justify-content: space-around;
+  word-spacing: 0%;
+  font-size: 40px;
+
+
+}
+/*para botoes*/
+a{
+  text-decoration: none;
+  color: white;
+}
+
+a:hover{
+  background-color: #0000FF;
+}
+a{
+  padding: 50px;
+height: 1800px;
+}
+form{
+  display: block;
+  word-break: break-all;
+  font-size: 40px;
+  justify-content: space-around;
+  word-spacing: 0px;
+}
+/*rodapé*/
+.rodape {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  
+  display: flex;
+  justify-content: center;
 }
